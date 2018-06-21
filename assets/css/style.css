@@ -1,0 +1,200 @@
+
+
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url("../images/Hersheys.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+footer {
+    width: 90%;
+    height: 7%;
+    position: absolute;
+    background-color: #d7d7d7;
+    border: 1px solid #f4f4f4;
+    border-radius: 1rem;
+    font-size: 3rem;
+    text-align: center;
+    bottom: 0;
+    padding-top: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+h4 {
+    color: #302222;
+}
+
+.title {
+    width: 90vw;
+    height: 10rem;
+    background: url("../images/bear-title.jpg") no-repeat;
+    border: 1px solid #f4f4f4;
+    border-radius: 2rem;
+    font-size: 10rem;
+    text-align: center;
+    box-shadow: .4rem .7rem 1rem #000;
+}
+
+.timer {
+    text-align: center;
+    font-size: 10rem;
+    font-weight: 700;
+    margin: 1rem 0;
+    text-shadow: .2rem .5rem .8rem #000;
+}
+
+.main {
+    display: flex;
+    height: 50vh;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.question {
+    width: 47%;
+    font-size: 3rem;
+    margin-right: 3%;
+    background-color: #d7d7d7;
+    border: 1px solid #f4f4f4;
+    border-radius: 1rem;
+    color: #50723b;
+    padding-top:  3rem;
+    box-shadow: .4rem .7rem 1rem #000;
+}
+
+.answers {
+    width: 47%;
+    margin-left: 3%;
+    background-color: #d7d7d7;
+    border: 1px solid #f4f4f4;
+    border-radius: 1rem;
+    box-shadow: .4rem .7rem 1rem #000;
+}
+
+.btn {
+    height: 4rem;
+    width: 20rem;
+    background: transparent;
+    font-size: 2rem;
+    border-radius: 1rem;
+    color: #302222;
+    border: .3rem solid #302222;
+    margin: 1.3rem auto;
+    transition: .5s;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: #50723b;
+    border: .7rem solid #50723b;
+}
+
+.btn:active {
+    color: #3f3b72;
+    border: .3rem solid #3f3b72;
+}
+.toggle-result {
+    position: absolute;
+    left: 59%;
+    margin-left: -25px;
+    transform: translateY(5vh);
+}
+.reset {
+    height: 4rem;
+    width: 20rem;
+    background: transparent;
+    font-size: 2rem;
+    border-radius: 1rem;
+    opacity: 0;
+    position: absolute;
+    color: #562a9e;
+    border: .3rem solid  #562a9e;
+    margin: 1.3rem auto;
+    transform: translateY(5vh);
+    transition: .5s;
+}
+.reset:hover {
+    cursor: pointer;
+    color: #dd0000;
+    border: .7rem solid #dd0000;
+}
+.gif {
+    position: absolute;
+    height: 16rem;
+    width: 25rem;
+    border: .1rem solid #666;
+    transform: translate(-37vw, -25vh);
+    opacity: 0;
+}
+.number{
+    color: #302222;
+}
+.cover-img {
+    background-image: url("../images/bear.jpg") no-repeat center center;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+.cover-btn {
+    position: absolute;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 4rem;
+    color: #34aa53;
+    border-radius: 2rem;
+    background: transparent;
+    border: .5rem solid #34aa53;
+    padding: 1rem 4rem;
+    box-shadow: .6rem .9rem 1rem #000;
+    text-shadow: .4rem .7rem 1rem #000;
+    z-index: 20;
+    transition: .5s;
+    transform: translate(-12vw, -55vh);
+}
+.cover-btn:hover {
+    cursor: pointer;
+    color: #7cec9a;
+    border: .5rem solid #7cec9a;
+    box-shadow: .3rem .6rem 1rem #000;
+}
+
+@keyframes fadeout {
+    20% {
+        opacity: .8;
+    }
+    40% {
+        opacity: .6;
+    }
+    60% {
+        opacity: .4;
+    }
+    80% {
+        opacity: .2;
+    }
+    
+    100% {
+        opacity: .01; 
+    }
+}
+
+
+
